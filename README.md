@@ -20,6 +20,7 @@ Bu seviyeye gelmemi sağlayan TechCareer ekibine ve Kasım ADALAN hocama çok te
 Screenshots 
 
 
-<img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/Anasayfa.png" width=30% height=30%><img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/Siparislerim.png" width=30% height=30%>
+<img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/Anasayfa.png" width=30% height=30%>
 <img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/Sepet.png" width=30% height=30%><img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/SiparisOnay.png" width=30% height=30%>
-<img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/Hakkımızda.png" width=30% height=30%><img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/CanlıTakip.png" width=30% height=30%>
+<img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/Siparislerim.png" width=30% height=30%>
+<img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/CanlıTakip.png" width=30% height=30%><img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/Hakkımızda.png" width=30% height=30%>
