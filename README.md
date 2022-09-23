@@ -3,7 +3,7 @@ TechCareer iOS Development Bootcamp graduation project.
 
 
 
-Farketmez App
+Farketmez App <img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/Hakkımızda.png" width=5% height=5%>
 
 Ne zaman arkadaşlarımla evdeyken sipariş verecek olsak herkesin "Ne Yiyeceksin?" sorusuna cevabı, "Bana Farketmez abi" oluyordu. Biz karar verene kadar 
 geçen sürede ise açlık seviyemiz çok daha fazla artıyordu. Bundan dolayı, uygulamamı geliştirirken ne yiyeceğine karar veremeyenler bana ilham verdi. 
@@ -22,4 +22,4 @@ Screenshots
 
 <img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/Anasayfa.png" width=30% height=30%><img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/Siparislerim.png" width=30% height=30%>
 <img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/Sepet.png" width=30% height=30%><img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/SiparisOnay.png" width=30% height=30%>
-<img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/Hakkımızda.png" width=30% height=30%>
+<img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/Hakkımızda.png" width=30% height=30%><img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/CanlıTakip.png" width=30% height=30%>
