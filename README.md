@@ -7,7 +7,7 @@ TechCareer iOS Development Bootcamp graduation project.
 
 Ne zaman arkadaşlarımla evdeyken sipariş verecek olsak herkesin "Ne Yiyeceksin?" sorusuna cevabı, "Bana Farketmez abi" oluyordu. Biz karar verene kadar 
 geçen sürede ise açlık seviyemiz çok daha fazla artıyordu. Bundan dolayı, uygulamamı geliştirirken ne yiyeceğine karar veremeyenler bana ilham verdi. 
-Umarım herkes ne yiyeceğine en yakın zamanda karar verebilir. Afiyet olsun
+Umarım herkes ne yiyeceğine en yakın zamanda karar verebilir. Afiyet olsun.
 
 A simple food ordering app.
 -VIPER Pattern
