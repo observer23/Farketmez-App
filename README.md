@@ -3,7 +3,7 @@ TechCareer iOS Development Bootcamp graduation project.
 
 
 
-Farketmez App <img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/Logo.png" width=5% height=5%>
+<img src="https://github.com/observer23/Farketmez-App/blob/main/Screenshots%26Video/Logo.png" width=3% height=3%> Farketmez App 
 
 Ne zaman arkadaşlarımla evdeyken sipariş verecek olsak herkesin "Ne Yiyeceksin?" sorusuna cevabı, "Bana Farketmez abi" oluyordu. Biz karar verene kadar 
 geçen sürede ise açlık seviyemiz çok daha fazla artıyordu. Bundan dolayı, uygulamamı geliştirirken ne yiyeceğine karar veremeyenler bana ilham verdi. 
