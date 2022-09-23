@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58BCD39628DC690B00291092 /* SiparislerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BCD39528DC690B00291092 /* SiparislerTableViewCell.swift */; };
+		58BCD39928DC97E400291092 /* CanliTakipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BCD39828DC97E400291092 /* CanliTakipVC.swift */; };
+		58C9221928CF66EA007D704E /* SiparislerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9221828CF66EA007D704E /* SiparislerVC.swift */; };
+		58C9221B28CF6703007D704E /* HakkimizdaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9221A28CF6703007D704E /* HakkimizdaVC.swift */; };
+		58C9221E28CF682C007D704E /* UrunlerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9221D28CF682C007D704E /* UrunlerCollectionViewCell.swift */; };
+		58C9222028CF6B55007D704E /* SepetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9221F28CF6B55007D704E /* SepetTableViewCell.swift */; };
+		58C9222928CF765E007D704E /* Yemekler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9222828CF765E007D704E /* Yemekler.swift */; };
+		58C9222B28CF7677007D704E /* YemeklerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9222A28CF7677007D704E /* YemeklerCevap.swift */; };
+		58C9222E28CF82E0007D704E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 58C9222D28CF82E0007D704E /* Kingfisher */; };
+		58C9223A28CF99C0007D704E /* DetayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9223928CF99C0007D704E /* DetayPresenter.swift */; };
+		58C9223C28CF99DB007D704E /* DetayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9223B28CF99DB007D704E /* DetayInteractor.swift */; };
+		58C9223E28CF9A01007D704E /* DetayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9223D28CF9A01007D704E /* DetayRouter.swift */; };
+		58C9224028CF9A18007D704E /* DetayProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9223F28CF9A18007D704E /* DetayProtocols.swift */; };
+		58C9224228CF9BCB007D704E /* SepetInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9224128CF9BCB007D704E /* SepetInteractor.swift */; };
+		58C9224428CFA1A8007D704E /* SepetYemekler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9224328CFA1A8007D704E /* SepetYemekler.swift */; };
+		58C9224628CFA1B6007D704E /* SepetYemeklerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9224528CFA1B6007D704E /* SepetYemeklerCevap.swift */; };
+		58C9224828CFA1EC007D704E /* SepetProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9224728CFA1EC007D704E /* SepetProtocols.swift */; };
+		58C9224A28CFA1FF007D704E /* SepetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9224928CFA1FF007D704E /* SepetRouter.swift */; };
+		58C9224C28CFA219007D704E /* SepetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9224B28CFA219007D704E /* SepetPresenter.swift */; };
+		58D4992528D3721900FB8D9F /* BaslikViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D4992428D3721800FB8D9F /* BaslikViewCell.swift */; };
+		58FEC92B28CF37BB00219D68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FEC92A28CF37BB00219D68 /* AppDelegate.swift */; };
+		58FEC92D28CF37BB00219D68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FEC92C28CF37BB00219D68 /* SceneDelegate.swift */; };
+		58FEC92F28CF37BB00219D68 /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FEC92E28CF37BB00219D68 /* AnasayfaVC.swift */; };
+		58FEC93228CF37BB00219D68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FEC93028CF37BB00219D68 /* Main.storyboard */; };
+		58FEC93428CF37BD00219D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FEC93328CF37BD00219D68 /* Assets.xcassets */; };
+		58FEC93728CF37BD00219D68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FEC93528CF37BD00219D68 /* LaunchScreen.storyboard */; };
+		58FEC94028CF380300219D68 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 58FEC93F28CF380300219D68 /* Alamofire */; };
+		58FEC94328CF38CE00219D68 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 58FEC94228CF38CE00219D68 /* Kingfisher */; };
+		58FEC94D28CF3AFD00219D68 /* AnasayfaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FEC94C28CF3AFD00219D68 /* AnasayfaPresenter.swift */; };
+		58FEC94F28CF3B0A00219D68 /* AnasayfaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FEC94E28CF3B0A00219D68 /* AnasayfaInteractor.swift */; };
+		58FEC95128CF3B1700219D68 /* AnasayfaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FEC95028CF3B1700219D68 /* AnasayfaRouter.swift */; };
+		58FEC95328CF3B2700219D68 /* AnasayfaProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FEC95228CF3B2700219D68 /* AnasayfaProtocols.swift */; };
+		58FEC95F28CF3BA100219D68 /* DetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FEC95E28CF3BA100219D68 /* DetayVC.swift */; };
+		58FEC96128CF3BB100219D68 /* SepetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FEC96028CF3BB100219D68 /* SepetVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58BCD39528DC690B00291092 /* SiparislerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiparislerTableViewCell.swift; sourceTree = "<group>"; };
+		58BCD39828DC97E400291092 /* CanliTakipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanliTakipVC.swift; sourceTree = "<group>"; };
+		58C9221828CF66EA007D704E /* SiparislerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiparislerVC.swift; sourceTree = "<group>"; };
+		58C9221A28CF6703007D704E /* HakkimizdaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HakkimizdaVC.swift; sourceTree = "<group>"; };
+		58C9221D28CF682C007D704E /* UrunlerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrunlerCollectionViewCell.swift; sourceTree = "<group>"; };
+		58C9221F28CF6B55007D704E /* SepetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetTableViewCell.swift; sourceTree = "<group>"; };
+		58C9222828CF765E007D704E /* Yemekler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yemekler.swift; sourceTree = "<group>"; };
+		58C9222A28CF7677007D704E /* YemeklerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemeklerCevap.swift; sourceTree = "<group>"; };
+		58C9223928CF99C0007D704E /* DetayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayPresenter.swift; sourceTree = "<group>"; };
+		58C9223B28CF99DB007D704E /* DetayInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayInteractor.swift; sourceTree = "<group>"; };
+		58C9223D28CF9A01007D704E /* DetayRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayRouter.swift; sourceTree = "<group>"; };
+		58C9223F28CF9A18007D704E /* DetayProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayProtocols.swift; sourceTree = "<group>"; };
+		58C9224128CF9BCB007D704E /* SepetInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetInteractor.swift; sourceTree = "<group>"; };
+		58C9224328CFA1A8007D704E /* SepetYemekler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetYemekler.swift; sourceTree = "<group>"; };
+		58C9224528CFA1B6007D704E /* SepetYemeklerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetYemeklerCevap.swift; sourceTree = "<group>"; };
+		58C9224728CFA1EC007D704E /* SepetProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetProtocols.swift; sourceTree = "<group>"; };
+		58C9224928CFA1FF007D704E /* SepetRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetRouter.swift; sourceTree = "<group>"; };
+		58C9224B28CFA219007D704E /* SepetPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetPresenter.swift; sourceTree = "<group>"; };
+		58D4992428D3721800FB8D9F /* BaslikViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaslikViewCell.swift; sourceTree = "<group>"; };
+		58FEC92728CF37BB00219D68 /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FEC92A28CF37BB00219D68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58FEC92C28CF37BB00219D68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58FEC92E28CF37BB00219D68 /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
+		58FEC93128CF37BB00219D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58FEC93328CF37BD00219D68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58FEC93628CF37BD00219D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58FEC93828CF37BD00219D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58FEC94C28CF3AFD00219D68 /* AnasayfaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaPresenter.swift; sourceTree = "<group>"; };
+		58FEC94E28CF3B0A00219D68 /* AnasayfaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaInteractor.swift; sourceTree = "<group>"; };
+		58FEC95028CF3B1700219D68 /* AnasayfaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaRouter.swift; sourceTree = "<group>"; };
+		58FEC95228CF3B2700219D68 /* AnasayfaProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaProtocols.swift; sourceTree = "<group>"; };
+		58FEC95E28CF3BA100219D68 /* DetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayVC.swift; sourceTree = "<group>"; };
+		58FEC96028CF3BB100219D68 /* SepetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58FEC92428CF37BB00219D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C9222E28CF82E0007D704E /* Kingfisher in Frameworks */,
+				58FEC94328CF38CE00219D68 /* Kingfisher in Frameworks */,
+				58FEC94028CF380300219D68 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58BCD39728DC978E00291092 /* CanlıTakip-module */ = {
+			isa = PBXGroup;
+			children = (
+				58BCD39828DC97E400291092 /* CanliTakipVC.swift */,
+			);
+			path = "CanlıTakip-module";
+			sourceTree = "<group>";
+		};
+		58C9221628CF66BB007D704E /* Hakkımızda-module */ = {
+			isa = PBXGroup;
+			children = (
+				58C9221A28CF6703007D704E /* HakkimizdaVC.swift */,
+			);
+			path = "Hakkımızda-module";
+			sourceTree = "<group>";
+		};
+		58C9221728CF66C6007D704E /* Siparisler-module */ = {
+			isa = PBXGroup;
+			children = (
+				58C9221828CF66EA007D704E /* SiparislerVC.swift */,
+				58BCD39528DC690B00291092 /* SiparislerTableViewCell.swift */,
+			);
+			path = "Siparisler-module";
+			sourceTree = "<group>";
+		};
+		58C9221C28CF67E0007D704E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				58C9222828CF765E007D704E /* Yemekler.swift */,
+				58C9222A28CF7677007D704E /* YemeklerCevap.swift */,
+				58C9224328CFA1A8007D704E /* SepetYemekler.swift */,
+				58C9224528CFA1B6007D704E /* SepetYemeklerCevap.swift */,
+			);
+			name = Entity;
+			path = "Anasayfa-module/Entity";
+			sourceTree = "<group>";
+		};
+		58C9222128CF6B5C007D704E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				58C9221F28CF6B55007D704E /* SepetTableViewCell.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		58C9222728CF7571007D704E /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				58C9221D28CF682C007D704E /* UrunlerCollectionViewCell.swift */,
+				58D4992428D3721800FB8D9F /* BaslikViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		58FEC91E28CF37BB00219D68 = {
+			isa = PBXGroup;
+			children = (
+				58FEC92928CF37BB00219D68 /* FinalProject */,
+				58FEC92828CF37BB00219D68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58FEC92828CF37BB00219D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58FEC92728CF37BB00219D68 /* FinalProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58FEC92928CF37BB00219D68 /* FinalProject */ = {
+			isa = PBXGroup;
+			children = (
+				58C9221C28CF67E0007D704E /* Entity */,
+				58BCD39728DC978E00291092 /* CanlıTakip-module */,
+				58C9221728CF66C6007D704E /* Siparisler-module */,
+				58C9221628CF66BB007D704E /* Hakkımızda-module */,
+				58FEC94628CF3A8900219D68 /* Sepet-module */,
+				58FEC94528CF3A6F00219D68 /* DetaySayfa-module */,
+				58FEC94428CF3A6300219D68 /* Anasayfa-module */,
+				58FEC92A28CF37BB00219D68 /* AppDelegate.swift */,
+				58FEC92C28CF37BB00219D68 /* SceneDelegate.swift */,
+				58FEC93028CF37BB00219D68 /* Main.storyboard */,
+				58FEC93328CF37BD00219D68 /* Assets.xcassets */,
+				58FEC93528CF37BD00219D68 /* LaunchScreen.storyboard */,
+				58FEC93828CF37BD00219D68 /* Info.plist */,
+			);
+			path = FinalProject;
+			sourceTree = "<group>";
+		};
+		58FEC94428CF3A6300219D68 /* Anasayfa-module */ = {
+			isa = PBXGroup;
+			children = (
+				58C9222728CF7571007D704E /* TableView */,
+				58FEC94B28CF3AE600219D68 /* Protocols */,
+				58FEC94A28CF3AE100219D68 /* Router */,
+				58FEC94928CF3AD800219D68 /* Interactor */,
+				58FEC94828CF3AD200219D68 /* Presenter */,
+				58FEC94728CF3ACC00219D68 /* View */,
+			);
+			path = "Anasayfa-module";
+			sourceTree = "<group>";
+		};
+		58FEC94528CF3A6F00219D68 /* DetaySayfa-module */ = {
+			isa = PBXGroup;
+			children = (
+				58FEC95828CF3B5100219D68 /* Protocols */,
+				58FEC95728CF3B4A00219D68 /* Router */,
+				58FEC95628CF3B4100219D68 /* Interactor */,
+				58FEC95528CF3B3B00219D68 /* Presenter */,
+				58FEC95428CF3B3400219D68 /* View */,
+			);
+			path = "DetaySayfa-module";
+			sourceTree = "<group>";
+		};
+		58FEC94628CF3A8900219D68 /* Sepet-module */ = {
+			isa = PBXGroup;
+			children = (
+				58C9222128CF6B5C007D704E /* Entity */,
+				58FEC95D28CF3B7900219D68 /* Protocols */,
+				58FEC95C28CF3B7000219D68 /* Router */,
+				58FEC95B28CF3B6800219D68 /* Interactor */,
+				58FEC95A28CF3B5E00219D68 /* Presenter */,
+				58FEC95928CF3B5900219D68 /* View */,
+			);
+			path = "Sepet-module";
+			sourceTree = "<group>";
+		};
+		58FEC94728CF3ACC00219D68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58FEC92E28CF37BB00219D68 /* AnasayfaVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58FEC94828CF3AD200219D68 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				58FEC94C28CF3AFD00219D68 /* AnasayfaPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		58FEC94928CF3AD800219D68 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				58FEC94E28CF3B0A00219D68 /* AnasayfaInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		58FEC94A28CF3AE100219D68 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				58FEC95028CF3B1700219D68 /* AnasayfaRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		58FEC94B28CF3AE600219D68 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				58FEC95228CF3B2700219D68 /* AnasayfaProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		58FEC95428CF3B3400219D68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58FEC95E28CF3BA100219D68 /* DetayVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58FEC95528CF3B3B00219D68 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				58C9223928CF99C0007D704E /* DetayPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		58FEC95628CF3B4100219D68 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				58C9223B28CF99DB007D704E /* DetayInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		58FEC95728CF3B4A00219D68 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				58C9223D28CF9A01007D704E /* DetayRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		58FEC95828CF3B5100219D68 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				58C9223F28CF9A18007D704E /* DetayProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		58FEC95928CF3B5900219D68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58FEC96028CF3BB100219D68 /* SepetVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58FEC95A28CF3B5E00219D68 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				58C9224B28CFA219007D704E /* SepetPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		58FEC95B28CF3B6800219D68 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				58C9224128CF9BCB007D704E /* SepetInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		58FEC95C28CF3B7000219D68 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				58C9224928CFA1FF007D704E /* SepetRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		58FEC95D28CF3B7900219D68 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				58C9224728CFA1EC007D704E /* SepetProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58FEC92628CF37BB00219D68 /* FinalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58FEC93B28CF37BD00219D68 /* Build configuration list for PBXNativeTarget "FinalProject" */;
+			buildPhases = (
+				58FEC92328CF37BB00219D68 /* Sources */,
+				58FEC92428CF37BB00219D68 /* Frameworks */,
+				58FEC92528CF37BB00219D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalProject;
+			packageProductDependencies = (
+				58FEC93F28CF380300219D68 /* Alamofire */,
+				58FEC94228CF38CE00219D68 /* Kingfisher */,
+				58C9222D28CF82E0007D704E /* Kingfisher */,
+			);
+			productName = FinalProject;
+			productReference = 58FEC92728CF37BB00219D68 /* FinalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58FEC91F28CF37BB00219D68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					58FEC92628CF37BB00219D68 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 58FEC92228CF37BB00219D68 /* Build configuration list for PBXProject "FinalProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58FEC91E28CF37BB00219D68;
+			packageReferences = (
+				58FEC93E28CF380300219D68 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				58FEC94128CF38CE00219D68 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				58C9222C28CF82E0007D704E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 58FEC92828CF37BB00219D68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58FEC92628CF37BB00219D68 /* FinalProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58FEC92528CF37BB00219D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FEC93728CF37BD00219D68 /* LaunchScreen.storyboard in Resources */,
+				58FEC93428CF37BD00219D68 /* Assets.xcassets in Resources */,
+				58FEC93228CF37BB00219D68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58FEC92328CF37BB00219D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FEC95F28CF3BA100219D68 /* DetayVC.swift in Sources */,
+				58C9223A28CF99C0007D704E /* DetayPresenter.swift in Sources */,
+				58FEC95128CF3B1700219D68 /* AnasayfaRouter.swift in Sources */,
+				58FEC92F28CF37BB00219D68 /* AnasayfaVC.swift in Sources */,
+				58FEC92B28CF37BB00219D68 /* AppDelegate.swift in Sources */,
+				58C9224628CFA1B6007D704E /* SepetYemeklerCevap.swift in Sources */,
+				58C9221928CF66EA007D704E /* SiparislerVC.swift in Sources */,
+				58C9224828CFA1EC007D704E /* SepetProtocols.swift in Sources */,
+				58C9221B28CF6703007D704E /* HakkimizdaVC.swift in Sources */,
+				58BCD39628DC690B00291092 /* SiparislerTableViewCell.swift in Sources */,
+				58BCD39928DC97E400291092 /* CanliTakipVC.swift in Sources */,
+				58FEC94D28CF3AFD00219D68 /* AnasayfaPresenter.swift in Sources */,
+				58D4992528D3721900FB8D9F /* BaslikViewCell.swift in Sources */,
+				58C9222928CF765E007D704E /* Yemekler.swift in Sources */,
+				58FEC96128CF3BB100219D68 /* SepetVC.swift in Sources */,
+				58C9223C28CF99DB007D704E /* DetayInteractor.swift in Sources */,
+				58C9224C28CFA219007D704E /* SepetPresenter.swift in Sources */,
+				58FEC94F28CF3B0A00219D68 /* AnasayfaInteractor.swift in Sources */,
+				58C9222028CF6B55007D704E /* SepetTableViewCell.swift in Sources */,
+				58C9222B28CF7677007D704E /* YemeklerCevap.swift in Sources */,
+				58C9224428CFA1A8007D704E /* SepetYemekler.swift in Sources */,
+				58FEC95328CF3B2700219D68 /* AnasayfaProtocols.swift in Sources */,
+				58C9224028CF9A18007D704E /* DetayProtocols.swift in Sources */,
+				58C9224228CF9BCB007D704E /* SepetInteractor.swift in Sources */,
+				58C9223E28CF9A01007D704E /* DetayRouter.swift in Sources */,
+				58C9221E28CF682C007D704E /* UrunlerCollectionViewCell.swift in Sources */,
+				58C9224A28CFA1FF007D704E /* SepetRouter.swift in Sources */,
+				58FEC92D28CF37BB00219D68 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58FEC93028CF37BB00219D68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58FEC93128CF37BB00219D68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58FEC93528CF37BD00219D68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58FEC93628CF37BD00219D68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58FEC93928CF37BD00219D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58FEC93A28CF37BD00219D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58FEC93C28CF37BD00219D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinalProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Farketmez;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inf.FinalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58FEC93D28CF37BD00219D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinalProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Farketmez;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inf.FinalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58FEC92228CF37BB00219D68 /* Build configuration list for PBXProject "FinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FEC93928CF37BD00219D68 /* Debug */,
+				58FEC93A28CF37BD00219D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58FEC93B28CF37BD00219D68 /* Build configuration list for PBXNativeTarget "FinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FEC93C28CF37BD00219D68 /* Debug */,
+				58FEC93D28CF37BD00219D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		58C9222C28CF82E0007D704E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		58FEC93E28CF380300219D68 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		58FEC94128CF38CE00219D68 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		58C9222D28CF82E0007D704E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58C9222C28CF82E0007D704E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		58FEC93F28CF380300219D68 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58FEC93E28CF380300219D68 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		58FEC94228CF38CE00219D68 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58FEC94128CF38CE00219D68 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 58FEC91F28CF37BB00219D68 /* Project object */;
+}
