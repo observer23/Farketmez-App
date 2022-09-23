@@ -1,5 +1,4 @@
 # Farketmez-App
-iOS Bootcamp Final Project
 TechCareer iOS Development Bootcamp graduation project.
 
 
